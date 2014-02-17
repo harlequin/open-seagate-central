@@ -1,0 +1,28 @@
+Package: libpar2
+Version: 0.4
+Section: library/par2
+Architecture: arm
+Maintainer: element
+MD5Sum: 24568170b4d37611df9577cac61bf013
+Size: 456898
+Filename: libpar2_0.4_arm.opk
+Source: https://launchpadlibrarian.net/145283863
+Description: lipar2 library
+HomePage: http://devnull.com/
+Priority: optional
+
+
+Package: libpar2
+Version: 0.4
+Section: library/par2
+Architecture: armv6-vfp
+Maintainer: element
+MD5Sum: 318b8f6f44d4c2b8fb13d25e1d969cb4
+Size: 456882
+Filename: libpar2_0.4_armv6-vfp.opk
+Source: https://launchpadlibrarian.net/145283863
+Description: lipar2 library
+HomePage: http://devnull.com/
+Priority: optional
+
+
