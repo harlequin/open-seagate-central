@@ -1,11 +1,11 @@
 Package: unrar
 Version: 4.0.6
 Section: utils
-Architecture: armv6
+Architecture: arm
 Maintainer: element
-MD5Sum: 4d0c69bad2c00496f394471df999e698
+MD5Sum: 8516316186d123392bcbdfe73c78cd3e
 Size: 100856
-Filename: unrar_4.0.6_armv6.opk
+Filename: unrar_4.0.6_arm.opk
 Source: http://www.rarlab.com/rar
 Description:  unrar is an application that can decompress files and archives created
  using the RAR compression scheme
