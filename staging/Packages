@@ -1,0 +1,121 @@
+Package: json-c
+Version: 0.11
+Section: libs
+Architecture: arm
+Maintainer: element
+MD5Sum: b40f3a6c6a24b36483c40819d3a3bf0f
+Size: 105178
+Filename: json-c_0.11_arm.opk
+Source: https://github.com/json-c/json-c/archive
+Description:  json-c
+Priority: optional
+
+Package: libcurl
+Version: 7.35.0
+Section: libs
+Architecture: arm
+Maintainer: element
+MD5Sum: 89ec1db40d20c3369079540f6aa4a4e1
+Size: 597252
+Filename: libcurl_7.35.0_arm.opk
+Source: http://mirror.weathercity.com/curl
+Description:  libcurl
+Priority: optional
+
+Package: libevent
+Version: 2.0.21
+Section: libs
+Architecture: arm
+Maintainer: element
+MD5Sum: 3c6acc473165fe812f4d144d0c63f430
+Size: 1592566
+Filename: libevent_2.0.21_arm.opk
+Source: https://github.com/downloads/libevent/libevent
+Description:  libevent
+Priority: optional
+
+Package: minidragonfly
+Version: develop
+Section: applications
+Architecture: arm
+Maintainer: element
+MD5Sum: 82f0de4234f3cc92ab713c73a60fb4ce
+Size: 300946
+Filename: minidragonfly_develop_arm.opk
+Source: https://dl.dropboxusercontent.com/u/67748865
+Description:  minidragonfly
+Priority: optional
+
+Package: openssl
+Version: 1.0.1f
+Section: libs
+Architecture: arm
+Maintainer: element
+MD5Sum: 99f81b08e5b3ec2b9233a21e2111570c
+Size: 3152512
+Filename: openssl_1.0.1f_arm.opk
+Source: http://www.openssl.org/source/
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+Priority: optional
+
+Package: pcre
+Version: 8.34
+Section: libs
+Architecture: arm
+Maintainer: element
+MD5Sum: 8b27fd1e4f2faa7de3de394c0ff4b133
+Size: 1287750
+Filename: pcre_8.34_arm.opk
+Source: ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre
+Description:  pcre
+Priority: optional
+
+Package: sqlite
+Version: 3071201
+Section: libs
+Architecture: arm
+Maintainer: element
+MD5Sum: ccab8805a9a35756f752860d7d89db46
+Size: 2056930
+Filename: sqlite_3071201_arm.opk
+Source: http://www.sqlite.org/
+Description:  sqlite
+Priority: optional
+
+Package: transmission
+Version: 2.82
+Section: applications
+Architecture: arm
+Maintainer: element
+MD5Sum: 268ebeb172326d0e880f839cb5228d1d
+Size: 18373206
+Filename: transmission_2.82_arm.opk
+Source: http://download.transmissionbt.com/files/
+Description:  transmission
+Priority: optional
+
+Package: unrar
+Version: 4.0.6
+Section: utils
+Architecture: arm
+Maintainer: element
+MD5Sum: cd2851f31016076beed1db5ad14d773d
+Size: 101120
+Filename: unrar_4.0.6_arm.opk
+Source: http://www.rarlab.com/rar
+Description:  unrar is an application that can decompress files and archives created
+ using the RAR compression scheme
+Priority: optional
+
+Package: zlib
+Version: 1.2.8
+Section: libs
+Architecture: arm
+Maintainer: element
+MD5Sum: ee53605c5a83ecec2d93e8ec932062b2
+Size: 170164
+Filename: zlib_1.2.8_arm.opk
+Source: http://downloads.sourceforge.net/project/libpng/zlib/1.2.8
+Description:  Library implementing the deflate compression method
+Priority: optional
+
