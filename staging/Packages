@@ -82,6 +82,18 @@ Source: http://www.sqlite.org/
 Description:  sqlite
 Priority: optional
 
+Package: squid
+Version: 3.4.3
+Section: applications
+Architecture: arm
+Maintainer: element
+MD5Sum: 965c40dc0e951e9587481b23ceb1e8d0
+Size: 10800694
+Filename: squid_3.4.3_arm.opk
+Source: http://www.squid-cache.org/Versions/v3/3.4/
+Description:  squid3
+Priority: optional
+
 Package: transmission
 Version: 2.82
 Section: applications
