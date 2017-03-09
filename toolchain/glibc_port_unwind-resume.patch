@@ -1,0 +1,52 @@
+diff -uprN a/sysdeps/unix/sysv/linux/arm/eabi/nptl/unwind-forcedunwind.c b/sysdeps/unix/sysv/linux/arm/eabi/nptl/unwind-forcedunwind.c
+--- a/sysdeps/unix/sysv/linux/arm/eabi/nptl/unwind-forcedunwind.c	2010-04-27 23:44:24.000000000 +0200
++++ b/sysdeps/unix/sysv/linux/arm/eabi/nptl/unwind-forcedunwind.c	2017-03-09 09:17:48.843809000 +0100
+@@ -23,7 +23,8 @@
+ #include <pthreadP.h>
+ 
+ static void *libgcc_s_handle;
+-static void (*libgcc_s_resume) (struct _Unwind_Exception *exc);
++static void (*libgcc_s_resume) (struct _Unwind_Exception *exc)
++  __attribute_used__;
+ static _Unwind_Reason_Code (*libgcc_s_personality)
+   (_Unwind_State, struct _Unwind_Exception *, struct _Unwind_Context *);
+ static _Unwind_Reason_Code (*libgcc_s_forcedunwind)
+diff -uprN a/sysdeps/unix/sysv/linux/arm/eabi/nptl/unwind-resume.c b/sysdeps/unix/sysv/linux/arm/eabi/nptl/unwind-resume.c
+--- a/sysdeps/unix/sysv/linux/arm/eabi/nptl/unwind-resume.c	2010-04-27 23:44:24.000000000 +0200
++++ b/sysdeps/unix/sysv/linux/arm/eabi/nptl/unwind-resume.c	2017-03-09 09:18:09.619809000 +0100
+@@ -21,7 +21,8 @@
+ #include <stdio.h>
+ #include <unwind.h>
+ 
+-static void (*libgcc_s_resume) (struct _Unwind_Exception *exc);
++static void (*libgcc_s_resume) (struct _Unwind_Exception *exc)
++  __attribute_used__;
+ static _Unwind_Reason_Code (*libgcc_s_personality)
+   (_Unwind_State, struct _Unwind_Exception *, struct _Unwind_Context *);
+ 
+diff -uprN a/sysdeps/unix/sysv/linux/arm/nptl/unwind-forcedunwind.c b/sysdeps/unix/sysv/linux/arm/nptl/unwind-forcedunwind.c
+--- a/sysdeps/unix/sysv/linux/arm/nptl/unwind-forcedunwind.c	2010-04-27 23:44:24.000000000 +0200
++++ b/sysdeps/unix/sysv/linux/arm/nptl/unwind-forcedunwind.c	2017-03-09 09:18:24.635809000 +0100
+@@ -23,7 +23,8 @@
+ #include <pthreadP.h>
+ 
+ static void *libgcc_s_handle;
+-static void (*libgcc_s_resume) (struct _Unwind_Exception *exc);
++static void (*libgcc_s_resume) (struct _Unwind_Exception *exc)
++  __attribute_used__;
+ static _Unwind_Reason_Code (*libgcc_s_personality)
+   (int, _Unwind_Action, _Unwind_Exception_Class, struct _Unwind_Exception *,
+    struct _Unwind_Context *);
+diff -uprN a/sysdeps/unix/sysv/linux/arm/nptl/unwind-resume.c b/sysdeps/unix/sysv/linux/arm/nptl/unwind-resume.c
+--- a/sysdeps/unix/sysv/linux/arm/nptl/unwind-resume.c	2010-04-27 23:44:24.000000000 +0200
++++ b/sysdeps/unix/sysv/linux/arm/nptl/unwind-resume.c	2017-03-09 09:18:36.203808000 +0100
+@@ -21,7 +21,8 @@
+ #include <stdio.h>
+ #include <unwind.h>
+ 
+-static void (*libgcc_s_resume) (struct _Unwind_Exception *exc);
++static void (*libgcc_s_resume) (struct _Unwind_Exception *exc)
++  __attribute_used__;
+ static _Unwind_Reason_Code (*libgcc_s_personality)
+   (int, _Unwind_Action, _Unwind_Exception_Class, struct _Unwind_Exception *,
+    struct _Unwind_Context *);
